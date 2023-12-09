@@ -1,0 +1,9 @@
+{{#if @site.members_enabled}}
+    {{#unless @member}}
+            <section class="gh-cta gh-outer">
+                <div class="gh-cta-inner gh-inner">
+                    {{> "email-subscription"}}
+                </div>
+            </section>
+    {{/unless}}
+{{/if}}

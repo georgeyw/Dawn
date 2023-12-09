@@ -70,14 +70,14 @@
                     "Light",
                     "Dark"
                 ],
-                "default": "Auto"
+                "default": "Dark"
             },
             "white_logo_for_dark_mode": {
                 "type": "image"
             },
             "show_featured_posts": {
                 "type": "boolean",
-                "default": true,
+                "default": false,
                 "group": "homepage"
             },
             "featured_title": {
